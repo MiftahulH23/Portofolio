@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="flex felx-col items-center justify-center md:mt-20 mt-5">
       <div className="md:flex md:gap-8 md:items-center md:justify-center hidden md:block">
-        <div className="w-60 h-60 overflow-hidden rounded-full flex-none">
+        <div className="w-60 h-60 overflow-hidden rounded-full flex-none border-2 border-primary">
           <img
             src={Avatar}
             alt="profil"
